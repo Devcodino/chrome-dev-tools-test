@@ -1,0 +1,57 @@
+html {
+  font-size: 16px;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(23, 21, 21);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.devc-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 10em;
+  height: 10em;
+  margin: 1em;
+}
+
+.color-one {
+  background-color: aquamarine;
+}
+
+.color-two {
+  background-color: plum;
+  width: 5em;
+  height: 5em;
+}
+
+.section-two {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width: 10em;
+  border-radius: 3em;
+  padding: 2em;
+}
+
+.img-container:hover {
+  background-color: aqua;
+}
+
+.img-container img {
+  width: 100%;
+}

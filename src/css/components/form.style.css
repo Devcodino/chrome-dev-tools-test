@@ -1,0 +1,37 @@
+.devc-flex-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-container input {
+  width: 30em;
+  height: 1.5em;
+  margin-top: 1em;
+  border-radius: 1em;
+  padding: 1em;
+  border: none;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-bottom: 5px solid rgb(233, 143, 188);
+}
+
+.form-container input:focus::placeholder {
+  color: rgb(210, 210, 210);
+}
+
+.form-container .submit-btn {
+  margin-top: 3em;
+  padding: 1em 2em;
+  border-radius: 0.8em;
+  background-color: rgb(233, 143, 188);
+  color: whitesmoke;
+  border: none;
+}
+
+.form-container .submit-btn:hover {
+  background-color: rgb(86, 69, 116);
+}
